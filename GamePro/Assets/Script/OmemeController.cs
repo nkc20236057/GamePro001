@@ -22,11 +22,11 @@ public class OmemeController : MonoBehaviour
         }
 
         //当たり判定
-        Vector2 p1 = transform.position;                 //矢の中心座標
+        Vector2 p1 = transform.position;                 //中心座標
         Vector2 p2 = this.player.transform.position;     //プレイヤーの中心座標
         Vector2 dir = p1 - p2;
         float d = dir.magnitude;
-        float r1 = 0.5f;         //矢の半径
+        float r1 = 0.5f;         //半径
         float r2 = 1.0f;
 
         if(d < r1 + r2)
