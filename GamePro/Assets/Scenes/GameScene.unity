@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 160587108}
   - component: {fileID: 160587110}
   - component: {fileID: 160587109}
+  - component: {fileID: 160587111}
   m_Layer: 5
   m_Name: hpGauge
   m_TagString: Untagged
@@ -199,6 +200,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160587107}
   m_CullTransparentMesh: 1
+--- !u!114 &160587111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160587107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26325ab6f9e88af4db8e07eb330e596e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpGage: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 047732bb843361b4481419412a01dbe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hpdown: 60
 --- !u!1 &1407079171
 GameObject:
   m_ObjectHideFlags: 0
