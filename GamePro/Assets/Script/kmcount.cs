@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class kmcount : MonoBehaviour
 {
+<<<<<<< HEAD
     private Text timer;
     private float keika;
 
@@ -19,4 +20,7 @@ public class kmcount : MonoBehaviour
         keika = Time.time * 40;
         timer.text = keika.ToString("000000km");
     }
+=======
+   
+>>>>>>> origin/main
 }
